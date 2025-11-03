@@ -27,8 +27,9 @@
     <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
     <!-- Style CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/header.css">
     <!-- Dark CSS -->
-    <link rel="stylesheet" href="assets/css/dark.css">
+    <!-- <link rel="stylesheet" href="assets/css/dark.css"> -->
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- RTL CSS -->
@@ -41,6 +42,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic&family=Noto+Naskh+Arabic&display=swap"
         rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <!-- أيقونات -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
 
     <link rel="icon" type="image/png" href="assets/images/favicon.png">
 </head>
@@ -57,167 +61,60 @@
     <!-- End Preloader Area -->
 
     <!-- Start Navbar Area -->
-    <div class="heading-new">
-        <div class="main-heading">
-            <div class="container">
-                <div class="row">
-                        <div class="col-md-10 col-lg-10">
-                            <img src="assets/images/logos.png" class="black-logo" alt="images">
-                        </div>
-                        <div class="col-md-2 col-lg-2">
-                            <div class="left-side">
-                                <img src="assets/images/qfs.png"  class="left-logo" alt="images">
-                                
-                                <!-- <img src="assets/images/2030.png" class="left-logo" alt="images"> -->
-                            </div>
- 
 
-                        </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="navbar-area">
-        <div class="main-responsive-nav">
-            <div class="container">
-                <div class="main-responsive-menu">
-                    <div class="logo">
-                        <a href="index.html">
-                            <img src="assets/images/logos.png" class="black-logo" alt="image">
-                            <img src="assets/images/white-logo.png" class="white-logo" alt="image">
+    <!-- ====== القسم: Navbar ====== -->
+    <section id="navbar-section">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top custom-navbar">
+            <div class="container py-2">
+
+                <!-- الشعار -->
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="assets/images/logos.png" alt="شعار" class="logo">
+                </a>
+
+                <!-- زر القائمة للجوال -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- القوائم -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto align-items-lg-center">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">الصفحة الرئيسية</a></li>
+                        <li class="nav-item"><a class="nav-link" href="about-us.html">عن الشركة</a></li>
+                        <li class="nav-item"><a class="nav-link" href="proudact.html">المنتجات</a></li>
+                        <li class="nav-item"><a class="nav-link" href="artical.html">المقالات</a></li>
+                        <li class="nav-item"><a class="nav-link" href="client.html">شركائنا</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">فروعنا</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contactus.html">تواصل معنا</a></li>
+                    </ul>
+
+                    <!-- زر و أيقونة اللغة -->
+                    <div class="d-flex align-items-center nav-actions">
+                        <a href="sample-form.html" class="btn btn-sample px-4 py-2 me-3">اطلب عينة</a>
+                        <a href="#" class="lang-btn d-flex align-items-center">
+                            <img src="https://cdn-icons-png.flaticon.com/512/323/323310.png" alt="EN" class="lang-icon">
+                            <span class="ms-1 fw-bold">EN</span>
                         </a>
                     </div>
                 </div>
+
             </div>
-        </div>
-
-        <div class="main-navbar">
-            <div class="container">
-                <nav class="navbar navbar-expand-md navbar-light">
-                    <a class="navbar-brand" href="index.html">
-                        <!-- <img src="assets/images/logos.png" class="black-logo" alt="image"> -->
-                        <img src="assets/images/logos.png" class="white-logo" alt="image">
-                    </a>
-
-                    <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                        <ul class="navbar-nav m-auto">
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    الرئيسيه
-                                </a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a href="عن الموتمر.html" class="nav-link">عن الموتمر</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    البرنامج العلمي
-                                    <i class="bx bx-chevron-down"></i>
-                                </a>
-
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="كلمة رئيسي اللجنه العلمية.html" class="nav-link">اللجنة العلمية</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a href="الارشادات.html" class="nav-link">ارشادات الرعايه</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a href="تقديم اوارق.html" class="nav-link">تقديم اوراق علمية</a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li class="nav-item">
-                                <a href="#" class="nav-link active">
-                                    الرعايه
-                                    <i class="bx bx-chevron-down"></i>
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="الجهات الراعيه.html" class="nav-link">الجهات الراعيه</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link active">دليل الرعايه</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">
-                                            التسجيل
-                                            <i class='bx bx-chevron-right'></i>
-                                        </a>
-
-                                        <ul class="dropdown-menu">
-                                            <li class="nav-item">
-                                                <a href="تسجيل افراد.html" class="nav-link"> تسجيل رعايه </a>
-                                            </li>
-
-                                            <li class="nav-item">
-                                                <a href="تسجيل شركات.html" class="nav-link">تسجيل مشاركين</a>
-                                            </li>
-
-
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    المركز الاعلامي
-                                    <i class="bx bx-chevron-down"></i>
-                                </a>
-
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item">
-                                        <a href="الاخبار.html" class="nav-link">الاخبار</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a href="معرض الصور.html" class="nav-link">مكتبة الصور</a>
-                                    </li>
-
-                                    <li class="nav-item">
-                                        <a href="مكتبه الفيديوهات.html" class="nav-link">مكتبة الفيديوهات</a>
-                                    </li>
-                                </ul>
-
-                            </li>
-                            <li class="nav-item">
-                                <a href="معرض الموتمر.html" class="nav-link">
-                                    معرض المؤتمر
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="تواصل معنا.html" class="nav-link">
-                                    تواصل معنا
-                                </a>
-                            </li>
-
-                    </div>
-            </div>
-            </nav>
-        </div>
-    </div>
+        </nav>
+    </section>
     <!-- End Navbar Area -->
-
     <!-- Start Main Slides Area -->
     <div class="main-slides-area">
         <div class="home-slides owl-carousel owl-theme">
             <div class="main-slides-item">
                 <div class="container">
                     <div class="main-slides-content">
-                        <h1 style="font-size: 19PX;">هذا النص هو مثال لنص يمكن أن</h1>
-                        <p>مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-                            إذا كنت تحتاج إلى عدد أكبر</p>
+                        <h1 style="font-size: 19PX;">فودبيبر</h1>
+                        <p>ورق الزبدة الألماني من فوود بيبر هو منتج يلبي الاحتياجات التجارية والصناعية والمنزلية</p>
 
                         <div class="slides-btn">
-                            <a href="تسجيل افراد.html" class="default-btn"><i class='bx bx-calendar'></i> سجل
-                                الان<span></span></a>
+                            <a href="contactus.html" class="default-btn"><i class='bx bx-calendar'></i> تواصل معنا
+                                <span></span></a>
                         </div>
                     </div>
                 </div>
@@ -226,13 +123,12 @@
             <div class="main-slides-item item-two">
                 <div class="container">
                     <div class="main-slides-content">
-                        <h1 style="font-size: 19px;">هذا النص هو مثال لنص يمكن أن</h1>
-                        <p>مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-                            إذا كنت تحتاج إلى عدد أكبر</p>
+                        <h1 style="font-size: 19PX;">فودبيبر</h1>
+                        <p>ورق الزبدة الألماني من فوود بيبر هو منتج يلبي الاحتياجات التجارية والصناعية والمنزلية</p>
 
                         <div class="slides-btn">
-                            <a href="تسجيل افراد.html" class="default-btn"><i class='bx bx-calendar'></i> سجل
-                                الان<span></span></a>
+                            <a href="contactus.html" class="default-btn"><i class='bx bx-calendar'></i> تواصل معنا
+                                <span></span></a>
                         </div>
                     </div>
                 </div>
@@ -241,13 +137,12 @@
             <div class="main-slides-item item-three">
                 <div class="container">
                     <div class="main-slides-content">
-                        <h1 style="font-size: 19px;">هذا النص هو مثال لنص يمكن أن</h1>
-                        <p>مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
-                            إذا كنت تحتاج إلى عدد أكبر.</p>
+                        <h1 style="font-size: 19PX;">فودبيبر</h1>
+                        <p>ورق الزبدة الألماني من فوود بيبر هو منتج يلبي الاحتياجات التجارية والصناعية والمنزلية</p>
 
                         <div class="slides-btn">
-                            <a href="pricing.html" class="default-btn"><i class='bx bx-calendar'></i> سجل
-                                الان<span></span></a>
+                            <a href="contactus.html" class="default-btn"><i class='bx bx-calendar'></i> تواصل معنا
+                                <span></span></a>
                         </div>
                     </div>
                 </div>
@@ -266,7 +161,7 @@
                         <h3 style="font-size: 15px;">
                             <a href="">
 
-                                الرياض - فندق هلتون
+                                الرياض - حي الملز - شارع صلاح الدين
                             </a>
                         </h3>
                     </div>
@@ -274,19 +169,19 @@
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-box">
-                        <span><i class='bx bx-calendar'></i> عدد الحضور المتوقع </span>
+                        <span><i class='bx bx-calendar'></i> انتشارنا</span>
                         <h3 style="font-size: 15px;">
                             <span data-goal="+1500" class="purecounter"></span>
-                            <a href="معرض الموتمر.html">1500+</a>
+                            <a href="معرض الموتمر.html">تواجدنا اكثر من 300 فرع</a>
                         </h3>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-box">
-                        <span><i class='bx bx-calendar'></i> التاريخ</span>
+                        <span><i class='bx bx-calendar'></i> رقم التواصل</span>
                         <h3 style="font-size: 15px;">
-                            <a href="معرض الموتمر.html"> 27- فبراير -2 مارس 2023
+                            <a href="معرض الموتمر.html"> 059312345678
 
                             </a>
                         </h3>
@@ -295,11 +190,11 @@
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-intro-box">
-                        <span><i class='bx bx-calendar'></i> عدد المحاور
+                        <span><i class='bx bx-calendar'></i> ساعات العمل
                         </span>
                         <h3 style="font-size: 15px;">
                             <span data-goal="12" class="purecounter"></span>
-                            <a href="معرض الموتمر.html">150</a>
+                            <a href="معرض الموتمر.html">9ص الى 5 م</a>
                         </h3>
                     </div>
                 </div>
@@ -307,7 +202,7 @@
         </div>
     </div>
     <!-- End Intro Area -->
-    <section class="about-us clearfix snap" id="about">
+    <!-- <section class="about-us clearfix snap" id="about">
         <div class="container-fluid">
             <h2 class="wow animate__animated animate__fadeInDown">عن المؤتمــر</h2>
             <div class="row">
@@ -325,8 +220,7 @@
 
         </div>
 
-    </section>
-
+    </section> -->
 
 
 
@@ -339,19 +233,20 @@
                         <div class="row">
                             <div class="col-lg-5 col-md-6">
                                 <div class="image-one">
-                                    <img src="assets/images/about/man.jpg" alt="image">
+                                    <img src="assets/images/WhatsApp Image 2021-07-17 at 5.50.23 PM.jpeg" alt="image">
                                 </div>
 
                                 <div class="about-text-wrap">
                                     <i class="flaticon-diversity"></i>
-                                    <h4>العديد من اللقاءات</h4>
-                                    <span>6 موتمرات قادمه</span>
+                                    <h4>تغطية واسعة</h4>
+                                    <span>اكثر من 300 فرع </span>
                                 </div>
                             </div>
 
                             <div class="col-lg-7 col-md-6">
                                 <div class="image-two">
-                                    <img src="assets/images/about/4.png" alt="image">
+                                    <img src="assets/images/WhatsApp Image 2021-06-20 at 12.47.02 PM (1).jpeg"
+                                        alt="image">
                                 </div>
                             </div>
                         </div>
@@ -360,25 +255,21 @@
 
                 <div class="col-lg-6 col-md-12">
                     <div class="about-us-content">
-                        <h3>عن المؤتمر</h3>
-                        <p>مؤتمر القطاع المالي هو أحد أهم المنصات الحوارية التي تستقطب صنّاع القرار في القطاع المالي
-                            وكبار التنفيذيين في المؤسسات المالية، يُنظمه شركاء برنامج تطوير القطـــاع المالي الممثلون
-                            بـ: وزارة المالية، والبنك المركزي السعودي، وهيئة السوق المالية</p>
-
+                        <h3>نحن فودبيبر، مصنع سعودي رائد تأسس منذ عام 2014. متخصصون في توفير حلول التغليف والخبز من خلال
+                            ورق الزبدة الأوروبي عالي الجودة والمطابق لأفضل المعايير العالمية."
+                            "نقدم لعملائنا - سواء كانوا مستهلكين أو قطاعًا صناعيًا - تشكيلة متكاملة من الورق بمختلف
+                            المقاسات والأشكال، لنضمن تلبية احتياجات الجميع بأعلى كفاءة وجودة</h3>
                         <ul class="list">
-                            <li><i class='bx bx-check'></i> تشغيل ما لا يقل عن 50% من المقاصف من قبل الأعضاء في المنطقة
-                                من خلال تقديم الوجبات الغذائية الآمنة صحيا والسليمة غذائيا .</li>
-                            <li><i class='bx bx-check'></i> تسويق أدوات ومعدات ومواد السلامة الغذائية بأسعار تنافسية .
-
-                            </li>
-                            <li><i class='bx bx-check'></i> نشاء مركز لتأهيل ومنح المنشآت الغذائية شهادات تطبيق معايير
-                                الجودة والسلامة العالمية .</li>
-                            <li><i class='bx bx-check'></i> تدريب وتهيئة أهالي المنطقة من المساهمين وغيرهم في السلامة
-                                الغذائية والصحية لرفع مستوى الثقافة المجتمعية .</li>
+                            <li><i class='bx bx-check'></i> الجودة الأوروبية: التزام صارم بمعايير الجودة الأوروبية لضمان
+                                سلامة الأغذية وأعلى أداء في المطبخ والصناعة.</li>
+                            <li><i class='bx bx-check'></i> تنوع الحلول: توفير أنواع الورق المناسبة لمختلف المقاسات
+                                والأشكال، مما يخدم احتياجات القطاعات الصناعية والمخابز بكفاءة.</li>
+                            <li><i class='bx bx-check'></i>الانتشار والثقة: نفخر بتواجدنا في أكثر من 300 فرع ونقطة بيع،
+                                مما يجعلنا الشريك الموثوق للخبز والتغليف في المملكة والمنطقة (استخدام الرقم 300). </li>
                         </ul>
 
                         <div class="about-btn">
-                            <a href="تسجيل افراد.html" class="default-btn"><i class='bx bx-chevron-left'></i> سجل الان
+                            <a href="sample-form.html" class="default-btn"><i class='bx bx-chevron-left'></i> اطلب الان
                                 <span></span></a>
                         </div>
                     </div>
@@ -387,11 +278,50 @@
         </div>
     </div>
     <!-- End About Us Area -->
+    <!-- whys us -->
+    <!-- start why us  -->
+
+    <section id="why-us-section" class="position-relative overflow-hidden py-5 text-white">
+        <div class="shapes">
+            <div class="shape shape1"></div>
+            <div class="shape shape2"></div>
+            <div class="shape shape3"></div>
+        </div>
+
+        <div class="container position-relative z-3">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0 text-content">
+                    <h2 class="fw-bold mb-3 gold-title">لماذا نحن؟</h2>
+                    <p class="lead mb-4">
+                        لأننا لا نقدم مجرد ورق زبدة، بل نعيد تعريف معايير الجودة والأناقة في كل منتج نقدمه.
+                        نحن نؤمن أن التفاصيل الصغيرة تصنع الفرق الكبير في مطبخك أو عملك.
+                    </p>
+
+                    <ul class="list-unstyled why-list">
+                        <li><i class="bi bi-award-fill text-gold me-2"></i> خامات أوروبية مقاومة للحرارة</li>
+                        <li><i class="bi bi-lightning-fill text-gold me-2"></i> تصميم حديث وسهل الاستخدام</li>
+                        <li><i class="bi bi-recycle text-gold me-2"></i> صديق للبيئة وقابل لإعادة التدوير</li>
+                        <li><i class="bi bi-people-fill text-gold me-2"></i> دعم عملاء سريع واحترافي</li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-6 text-center">
+                    <div class="image-wrapper">
+                        <img src="assets/images/logos.png" alt="لماذا نحن"
+                            class="img-fluid rounded-4 shadow-lg floating-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end why us  -->
+    <!--  -->
     <!-- Start FAQ Area -->
-    <div class="faq-area ptb-100">
+    <!-- <div class="faq-area ptb-100">
         <div class="container">
             <div class="section-title">
-                <h2>اهم المحاور التي يقدمها المؤتمر</h2>
+                <h2>أهم ما يميز فوود بيبر</h2>
             </div>
 
             <div class="faq-accordion">
@@ -487,29 +417,28 @@
                 </div>
             </div>
         </div>
-    </div>
-    <!-- End  FAQ Area -->
+    </div> -->
 
-    <!-- Start Speakers Area -->
     <div class="speakers-area ptb-100">
         <div class="container">
             <div class="section-title">
                 <!-- <span>Our Speakers</span> -->
-                <h2>المتحدثون لدينا في الموتمر</h2>
+                <h2>منتجاتنا</h2>
                 <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua ut enim ad minim veniam quis nostrud exercitation ullamco.</p> -->
             </div>
 
             <div class="row justify-content-center">
+
                 <div class="col-lg-3 col-md-6">
                     <div class="single-speakers">
                         <div class="speakers-image">
-                            <a href="speakers-details.html"><img src="assets/images/speakers/wael.png" alt="image"></a>
+                            <a href="proudact.html"><img src="assets/images/one.jpg" alt="image"></a>
                         </div>
 
-                        <div class="speakers-content">
+                        <!-- <div class="speakers-content">
                             <h3>
-                                <a href="speakers-details.html">أ وائل ابوراشد</a>
+                                <a href="proudact.html">أ وائل ابوراشد</a>
                             </h3>
                             <span>الرئيس التنفيذي</span>
 
@@ -526,19 +455,20 @@
                                             class='bx bxl-pinterest-alt'></i></a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
+
 
                 <div class="col-lg-3 col-md-6">
                     <div class="single-speakers">
                         <div class="speakers-image">
-                            <a href="speakers-details.html"><img src="assets/images/speakers/wael.png" alt="image"></a>
+                            <a href="proudact.html"><img src="assets/images/three.jpg" alt="image"></a>
                         </div>
 
-                        <div class="speakers-content">
+                        <!-- <div class="speakers-content">
                             <h3>
-                                <a href="speakers-details.html">أ وائل ابوراشد</a>
+                                <a href="proudact.html">أ وائل ابوراشد</a>
                             </h3>
                             <span>الرئيس التنفيذي</span>
 
@@ -555,19 +485,18 @@
                                             class='bx bxl-pinterest-alt'></i></a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
-
                 <div class="col-lg-3 col-md-6">
                     <div class="single-speakers">
                         <div class="speakers-image">
-                            <a href="speakers-details.html"><img src="assets/images/speakers/wael.png" alt="image"></a>
+                            <a href="proudact.html"><img src="assets/images/two.jpg" alt="image"></a>
                         </div>
 
-                        <div class="speakers-content">
+                        <!-- <div class="speakers-content">
                             <h3>
-                                <a href="speakers-details.html">أ وائل ابوراشد</a>
+                                <a href="proudact.html">أ وائل ابوراشد</a>
                             </h3>
                             <span>الرئيس التنفيذي</span>
 
@@ -584,19 +513,18 @@
                                             class='bx bxl-pinterest-alt'></i></a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
-
                 <div class="col-lg-3 col-md-6">
                     <div class="single-speakers">
                         <div class="speakers-image">
-                            <a href="speakers-details.html"><img src="assets/images/speakers/wael.png" alt="image"></a>
+                            <a href="proudact.html"><img src="assets/images/one.jpg" alt="image"></a>
                         </div>
 
-                        <div class="speakers-content">
+                        <!-- <div class="speakers-content">
                             <h3>
-                                <a href="speakers-details.html">أ وائل ابوراشد</a>
+                                <a href="proudact.html">أ وائل ابوراشد</a>
                             </h3>
                             <span>الرئيس التنفيذي</span>
 
@@ -613,13 +541,14 @@
                                             class='bx bxl-pinterest-alt'></i></a>
                                 </li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
+
             </div>
 
             <div class="view-all-btn">
-                <a href="المتحدثون.html" class="default-btn"><i class='bx bx-chevron-left'></i> مشاهده الكل
+                <a href="proudact.html" class="default-btn"><i class='bx bx-chevron-left'></i> مشاهده الكل
                     <span></span></a>
             </div>
         </div>
@@ -630,8 +559,8 @@
     <div class="announcement-area ptb-100">
         <div class="container">
             <div class="section-title">
-                <span>الوقت لدى المؤتمر</span>
-                <h2>باقي على المؤتمر </h2>
+                <!-- <span>الوقت لدى المؤتمر</span> -->
+                <h2> انتظرونا قريبا </h2>
             </div>
 
             <div class="announcement-soon-content">
@@ -643,7 +572,7 @@
                 </div>
 
                 <div class="announcement-btn">
-                    <a href="تسجيل شركات.html" class="default-btn"><i class='bx bx-arrow-to-right'></i>سجل
+                    <a href="sample-form.html" class="default-btn"><i class='bx bx-arrow-to-right'></i>سجل
                         الان<span></span></a>
                 </div>
             </div>
@@ -656,188 +585,57 @@
 
         <div class="partner-area my-5">
             <div class="heading">
-                <h2>راعي فضي</h2>
+                <h2>شركائنا سر نجاحنا:
+                </h2>
             </div>
             <div class="container">
                 <div class="partner-box">
                     <div class="partner-slides owl-carousel owl-theme">
                         <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
+                            <a href="sponsors.html"><img src="assets/images/العثيم.png" alt="image"><span>وزاره
                                     التجاره</span> </a>
                         </div>
 
                         <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
+                            <a href="sponsors.html"><img src="assets/images/الصاله.png" alt="image"><span>وزاره
                                     التجاره</span> </a>
                         </div>
 
                         <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
+                            <a href="sponsors.html"><img src="assets/images/هرفي.jpg" alt="image"><span>وزاره
                                     التجاره</span> </a>
                         </div>
 
                         <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
+                            <a href="sponsors.html"><img src="assets/images/نعناع.png" alt="image"><span>وزاره
                                     التجاره</span> </a>
                         </div>
 
                         <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
+                            <a href="sponsors.html"><img src="assets/images/الجزيره.png" alt="image"><span>وزاره
                                     التجاره</span> </a>
                         </div>
 
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
 
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="partner-area my-5">
-            <div class="heading">
-                <h2>راعي ذهبي</h2>
-            </div>
-            <div class="container">
-                <div class="partner-box">
-                    <div class="partner-slides owl-carousel owl-theme">
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
 
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="partner-area my-5">
-            <div class="heading">
-                <h2>راعي لوجيستي</h2>
-            </div>
-            <div class="container">
-                <div class="partner-box">
-                    <div class="partner-slides owl-carousel owl-theme">
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-
-                        <div class="single-partner">
-                            <a href="sponsors.html"><img src="assets/images/partner/p-three.png" alt="image"><span>وزاره
-                                    التجاره</span> </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
     </div>
     <!-- End Partner Area -->
 
-
+    <!-- <div class="video-area pb-100">
+            <div class="container">
+                <div class="video-box-image">
+                    <img src="assets/images/one.jpg" alt="image">
+                    <video src="assets/images/6_1.mp4"></video>
+                    <a href="https://www.youtube.com/watch?v=ODfy2YIKS1M" class="video-btn popup-youtube">
+                        <i class="bx bx-play"></i>
+                    </a>
+                </div>
+            </div>
+        </div> -->
 
     <!-- Start Overview Area -->
     <div class="overview-area ptb-100">
@@ -847,16 +645,15 @@
                     <div class="overview-content">
                         <!-- <span></span> -->
                         <h3>سارع الان</h3>
-                        <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
-                            العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى إضافة إلى زيادة عدد الحروف
-                            التى يولدها التطبيق.
-                            إذا كنت تحتاج إلى عدد</p>
+                        <p>اكتشف كيف يمكن لمنتجاتنا وخدماتنا أن تساهم في تطوير أعمالك وجودتك.
+                            اطلب الآن لتجربة حقيقية للجودة والاعتمادية.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-12">
                     <div class="overview-btn">
-                        <a href="تسجيل افراد.html" class="default-btn"><i class='bx bx-arrow-to-right'></i>سجل الان<span></span></a>
+                        <a href="sample-form.html" class="default-btn"><i class='bx bx-arrow-to-right'></i>اطلب
+                            الان<span></span></a>
                     </div>
                 </div>
             </div>
@@ -872,32 +669,33 @@
                     <div class="single-footer-widget">
                         <div class="widget-logo">
                             <a href="index.html">
-                                <img src="assets/images/logo.png" class="black-logo" alt="image">
-                                <img src="assets/images/white-logo.png" class="white-logo" alt="image">
+                                <img src="assets/images/logos.png" class="black-logo" alt="image">
+                                <!-- <img src="assets/images/white-logo.png" class="white-logo" alt="image"> -->
                             </a>
                         </div>
-                        <p>هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا النص من مولد النص
-                            العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد من النصوص الأخرى</p>
+                        <p>نحن مصنع سعودي تأسس منذ عام 2014، متخصص في ورق الزبدة الأوروبي عالي الجودة. نقدم لعملائنا
+                            أفضل أنواع الورق بمختلف المقاسات والأشكال، ونوفر ورق الزبدة للقطاع الصناعي بما يناسب
+                            احتياجاته.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-footer-widget">
-                        <h3>اهم الصفحات</h3>
+                        <h3> اكتشف المزيد</h3>
 
                         <ul class="footer-links-list">
                             <li><a href="about.html">الرئيسيه</a></li>
-                            <li><a href="sponsors.html">معرض الموتمر </a></li>
-                            <li><a href="sponsors.html">دليل الرعايه</a></li>
-                            <li><a href="schedules.html">المركز الاعلامي</a></li>
-                            <li><a href="events.html">مكتبه الصور</a></li>
+                            <li><a href="about-us.html"> من نحن </a></li>
+                            <li><a href="sample-form.html"> اطلب عينه </a></li>
+                            <li><a href="proudact.html">منتجاتنا</a></li>
+                            <li><a href="contactus.html">تواصل معنا </a></li>
                         </ul>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="single-footer-widget">
-                        <h3>شاهدنا الان</h3>
+                        <h3> صفحاتنا </h3>
 
                         <ul class="footer-links-list">
                             <li><a href="https://www.facebook.com/" target="_blank">الفيس بوك</a></li>
@@ -916,17 +714,17 @@
                         <ul class="widget-info">
                             <li>
                                 <i class='bx bxs-map'></i>
-                                الرياض حي الدمام
+                                8714 Salah Ad Din Al Ayyubi Rd, Ad Dhubbat, Riyadh
                             </li>
 
                             <li>
                                 <i class='bx bxs-phone'></i>
-                                <a href="tel:0023567890">+096666666666</a>
+                                <a href="tel:0023567890">+966 580716236</a>
                             </li>
 
                             <li>
                                 <i class='bx bx-envelope-open'></i>
-                                <a href="mailto:plonk@gmail.com">qfs@gmail.com</a>
+                                <a href="mailto:plonk@gmail.com">info@foodpaper1.com</a>
                             </li>
                         </ul>
 
@@ -966,10 +764,11 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 col-md-6">
                         <p>
-                            حقوق النشر @
-                            <script>document.write(new Date().getFullYear())</script>تصميم وبرمجة
-                            <a href="https://qfs.com/" target="_blank">
-                                موسسه البرمجه الرقميه
+                            عبدالرحمن محمود حقوق النشر @
+
+                            <script>document.write(new Date().getFullYear())</script> ورمجة
+                            <a href="#" target="_blank">
+
                             </a>
                         </p>
                     </div>
@@ -983,8 +782,15 @@
         <i class='bx bx-chevron-up'></i>
     </div>
     <!-- End Go Top Area -->
-
+    <div id="whatsapp-button">
+        <a href="https://wa.me/966500000000?text=%D9%85%D8%B1%D8%AD%D8%A8%D8%A7%D8%8C%20%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AE%D8%AF%D9%85%D8%A9."
+            target="_blank" id="whatsapp-link" title="تواصل معنا عبر واتساب">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp"
+                id="whatsapp-icon">
+        </a>
+    </div>
     <!-- Jquery Slim JS -->
+
     <script src="assets/js/jquery.min.js"></script>
     <!-- Bootstrap Bundle JS -->
     <script src="assets/js/bootstrap.bundle.min.js"></script>

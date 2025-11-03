@@ -15,7 +15,12 @@ jQuery(function ($) {
 	jQuery('.mean-menu').meanmenu({
 		meanScreenWidth: "1199"
 	});
-	
+
+        window.addEventListener("scroll", () => {
+            const navbar = document.querySelector(".custom-navbar");
+            navbar.classList.toggle("scrolled", window.scrollY > 50);
+        });
+
 	// Others Option For Responsive JS
 	$(".others-option-for-responsive .dot-menu").on("click", function(){
 		$(".others-option-for-responsive .container .container").toggleClass("active");
@@ -434,3 +439,44 @@ $('.owl-carousel').owlCarousel({
 // 	},2000/goal)
 //   }
 //   startcount(document.querySelectorAll(".nums .purecounter"));
+
+// add btn
+const addbtn = document.querySelector(".add");
+const input = document.querySelector("#number-ids");
+function addinput(){
+	const name=document.createElement("input");
+	name.type="text";
+	name.placeholder ="الرجاء ادخال الاسم"
+	const phonenmber= document.createElement("input");
+	phonenmber.type="number";
+	name.placeholder ="الرجاء ادخال رقم الهاتف"
+	const btn= document.createElement("a");
+	btn.className ="delete";
+	btn.innerHTML = "&item";
+
+	const flex =document.createElement("div");
+	flex.className ="flex";
+
+	input.appendChild(flex);
+	flex.appendChild(name);
+	flex.appendChild(phonenmber);
+	flex.appendChild(btn);
+
+}
+addbtn.addEventListener("click",addinput);
+  // ================== WhatsApp Floating Button Script ==================
+  document.addEventListener("DOMContentLoaded", function () {
+    const phoneNumber = "966500000000"; // ← ضع رقمك الدولي بدون +
+    const message = "مرحبًا، أريد الاستفسار عن الخدمة."; // الرسالة المسبقة
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappLink = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+
+    const link = document.getElementById("whatsapp-link");
+    link.href = whatsappLink;
+  });
+  const chatBtn = document.getElementById('chatbot-btn');
+  const chatBox = document.getElementById('chatbot-box');
+
+  chatBtn.addEventListener('click', () => {
+    chatBox.style.display = chatBox.style.display === 'none' ? 'block' : 'none';
+  });

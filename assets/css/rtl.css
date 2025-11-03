@@ -1,50 +1,4 @@
-.navbar-brand {
-  margin-right: 0;
-}
 
-.main-navbar .navbar ul {
-  padding-right: 0;
-}
-
-.main-navbar .navbar .navbar-nav .nav-item:first-child {
-  margin-right: 0;
-  margin-left: 15px;
-}
-
-.main-navbar .navbar .navbar-nav .nav-item:last-child {
-  margin-left: 0;
-  margin-right: 15px;
-}
-
-.main-navbar .navbar .navbar-nav .nav-item .dropdown-menu {
-  right: 0;
-  left: auto;
-  text-align: right;
-}
-
-.main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu {
-  right: -250px;
-  left: auto;
-}
-
-.main-navbar .navbar .navbar-nav .nav-item .dropdown-menu li a i {
-  left: 15px;
-  right: auto;
-}
-
-.main-navbar .navbar .others-options .option-item {
-  margin-left: 25px;
-  margin-right: 0;
-}
-
-.main-navbar .navbar .others-options .option-item:last-child {
-  margin-left: 0;
-}
-
-.main-navbar .navbar .others-options .option-item .cart-btn a span {
-  left: -2px;
-  right: auto;
-}
 
 .main-slides-content .slides-btn .default-btn {
   margin-left: 25px;
@@ -55,12 +9,20 @@
   margin-left: 5px;
   margin-right: 0;
 }
-
+a {
+  text-decoration: none !important;
+}
 .single-intro-box span {
   padding-right: 20px;
   padding-left: 0;
 }
-
+.info-sapn{
+  font-size: 10px;
+  
+}
+.span{
+  color:green;
+}
 .single-intro-box span i {
   right: 0;
   left: auto;

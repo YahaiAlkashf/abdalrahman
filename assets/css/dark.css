@@ -79,6 +79,8 @@ Default CSS
 
 .theme-light .black-logo {
   display: block;
+  filter: grayscale(100%);
+
 }
 
 .theme-light .white-logo {
